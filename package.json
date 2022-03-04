@@ -1,0 +1,20 @@
+{
+  "name": "jsaqa-hw-7.6.-cypress_1",
+  "version": "1.0.0",
+  "description": "HW",
+  "main": "index.js",
+  "scripts": {
+    "testChromeHeadMobile": "npx cypress run --browser chrome --headed --config-file cypress.env.json",
+    "testChromeHeadless": "npx cypress run --browser chrome --headless",
+    "testElectronHeadMobile": "npx cypress run --browser electron --headed --config-file cypress.env.json",
+    "testElectronHeadless": "npx cypress run --browser electron --headless"
+  },
+  "author": "SIV",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cypress": "^9.5.0",
+    "eslint": "^8.10.0",
+    "prettier": "^2.5.1"
+  }
+}
